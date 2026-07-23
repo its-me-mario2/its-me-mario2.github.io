@@ -431,6 +431,92 @@ main {
     font-size: 0.85rem;
 }
 
+/* Support Section */
+.support-section {
+    padding: 4rem 0;
+    border-top: 2px solid var(--border);
+}
+
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.support-card {
+    background: var(--bg-card);
+    border: 2px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.support-card:hover {
+    border-color: var(--accent-green);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.support-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.support-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.support-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1.25rem;
+}
+
+.support-btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    font-family: var(--font-pixel);
+    font-size: 10px;
+    transition: all 0.3s;
+}
+
+.ko-fi-btn {
+    background: #ff5e5b;
+    color: white;
+    border: 2px solid #ff5e5b;
+}
+
+.ko-fi-btn:hover {
+    background: transparent;
+    color: #ff5e5b;
+}
+
+.affiliate-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.affiliate-link {
+    display: block;
+    padding: 0.6rem 1rem;
+    background: rgba(68, 189, 50, 0.1);
+    border: 1px solid rgba(68, 189, 50, 0.3);
+    color: var(--accent-green);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.affiliate-link:hover {
+    background: var(--accent-green);
+    color: var(--bg-dark);
+}
+
 /* Newsletter */
 .newsletter {
     padding: 4rem 0;
