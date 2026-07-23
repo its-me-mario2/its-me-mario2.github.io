@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://its-me-mario2.github.io/sitemap.xml
+Sitemap: https://block-byte.github.io/sitemap.xml
