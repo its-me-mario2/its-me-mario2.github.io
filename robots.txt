@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://its-me-mario2.github.io/block-byte-minecraft/sitemap.xml
